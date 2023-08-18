@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .bingo-container {
+    display: grid;   
+    gap: 5px;
+    border: 2px solid #333;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .bingo-row {
+    display: flex;
+    grid-template-rows: repeat(5, 1fr);
+ }
+  
+  .bingo-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 40px;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+
+  
